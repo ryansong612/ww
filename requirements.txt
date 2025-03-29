@@ -1,3 +1,5 @@
 requests
 pyaudio
 SpeechRecognition
+jieba
+openai
