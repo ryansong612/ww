@@ -7,7 +7,7 @@ class Model:
         self.client = OpenAI(api_key=self.api_key, base_url="https://api.deepseek.com")
         self.messages = []
         self.model = "deepseek-chat"
-        self.max_tokens=2000
+        self.max_tokens = 20
         self.user_name = name
     
     def chat(self, message_body: str):
